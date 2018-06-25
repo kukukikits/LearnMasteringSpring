@@ -1,4 +1,4 @@
-package com.masteringspring.demo;
+package com.masteringspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
