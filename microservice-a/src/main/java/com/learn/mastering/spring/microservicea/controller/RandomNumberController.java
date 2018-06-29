@@ -17,11 +17,12 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 〈一句话功能简述〉 〈功能详细描述〉
  */
-
+@RestController
 public class RandomNumberController {
     private Log log = LogFactory.getLog(RandomNumberController.class);
 

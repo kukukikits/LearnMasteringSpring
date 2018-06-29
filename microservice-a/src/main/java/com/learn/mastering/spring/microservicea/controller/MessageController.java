@@ -5,9 +5,10 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.learn.mastering.spring.microservicea.configuration.ApplicationConfiguration;
-
+@RestController
 public class MessageController {
     @Autowired
     private ApplicationConfiguration configuration;
