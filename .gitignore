@@ -1,8 +1,8 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
-/demo/.mvn/
-/demo/mvnw
-/demo/mvnw.cmd
+/*/.mvn/
+/*/mvnw
+/*/mvnw.cmd
 ### STS ###
 .apt_generated
 .classpath
