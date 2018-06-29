@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
  * 下面这个怎么都配置,都不能配置password密码模式，应该还需要配置其他的东西，详情见https://segmentfault.com/a/1190000012260914#articleHeader1
  * 而直接在application.properties里配置的则可以支持
  */
-//@Component 若使用该java配置，需加上@component注解
+//@Component //若使用该java配置，需加上@component注解
 public class CustomAuthorizationServerConfigurer extends AuthorizationServerConfigurerAdapter{
 
     
