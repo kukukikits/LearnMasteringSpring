@@ -1,5 +1,7 @@
-/target/
 !.mvn/wrapper/maven-wrapper.jar
+.settings/
+target/
+bin/
 .mvn/
 mvnw
 mvnw.cmd
