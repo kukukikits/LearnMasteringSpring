@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/gitRepositories/mastering-spring-localconfig-repo
+server:
+  port: 8888
