@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/gitRepositories/mastering-spring-localconfig-repo
+          uri: https://github.com/kukukikits/LearnMasteringSpring
 server:
   port: 8888
