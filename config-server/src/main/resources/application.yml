@@ -1,3 +1,5 @@
+#spring.cloud.config.server.git.uri如果是github那么这个地址只能对应某个仓库，而不能是改仓库下的某个文件夹
+#且配置文件必须直接放到根目录，不然找不到
 spring:
   application:
     name: config-server
@@ -6,5 +8,6 @@ spring:
       server:
         git:
           uri: https://github.com/kukukikits/LearnMasteringSpring
+
 server:
   port: 8888
