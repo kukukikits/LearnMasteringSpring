@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(name = "microservice-a")
+//@FeignClient(name = "microservice-a")
+@FeignClient(name = "zuul-api-gateway")
 public interface MicroserviceAProxy {
-    @RequestMapping(value = "random", method = RequestMethod.GET)
+    @RequestMapping(value = "microservice-a/random", method = RequestMethod.GET)
     public List<Integer> getRandomNumbers();
 }
